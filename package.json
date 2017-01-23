@@ -1,0 +1,29 @@
+{
+  "name": "@theclinician/trello-issue-migration",
+  "version": "1.0.0",
+  "description": "This script can be used to migrate issues from Trello to GitHub by using the exported trello.json file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theclinician/TrelloMigrationScript.git"
+  },
+  "author": "The Clinician (Sam)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/theclinician/TrelloMigrationScript/issues"
+  },
+  "homepage": "https://github.com/theclinician/TrelloMigrationScript#readme",
+  "dependencies": {
+    "github": "^8.1.0",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0"
+  },
+  "bin": {
+    "migrate-trello-github": "./index.js"
+  },
+  "devDependencies": {},
+  "private" : true
+}
