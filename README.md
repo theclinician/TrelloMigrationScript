@@ -1,1 +1,1 @@
-# TrelloMigrationScript
+# A script to migrate Trello issues to GitHub issues. As input takes an exported trello.json from a single Trello board. Converts Trello list name, and label names to GitHub labels. Migrates only Issues and Comments at this time.
